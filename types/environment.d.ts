@@ -17,6 +17,9 @@ namespace NodeJS {
     GOOGLE_SECRET: string
     TWITTER_ID: string
     TWITTER_SECRET: string
+    KEYCLOAK_ID: string
+    KEYCLOAK_SECRET: string
+    KEYCLOAK_ISSUER: string
     DATABASE_URL: string
     SECRET: string
   }
