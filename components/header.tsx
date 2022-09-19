@@ -30,7 +30,8 @@ export default function Header() {
                 className={styles.buttonPrimary}
                 onClick={(e) => {
                   e.preventDefault()
-                  signIn()
+                  signIn("keycloak") //specfic provider to save one more click
+                  //signIn()
                 }}
               >
                 Sign in
