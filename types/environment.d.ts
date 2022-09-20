@@ -1,5 +1,6 @@
 namespace NodeJS {
   interface ProcessEnv extends NodeJS.ProcessEnv {
+    NEXTAUTH_URL: string
     EMAIL_SERVER: string
     EMAIL_FROM: string
     APPLE_ID: string

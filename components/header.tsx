@@ -54,7 +54,7 @@ export default function Header() {
                 className={styles.button}
                 onClick={(e) => {
                   e.preventDefault()
-                  signOut()
+                  signOut({ callbackUrl: "http://localhost:3000/api/auth/logout"  })
                 }}
               >
                 Sign out
